@@ -2,9 +2,10 @@ from bs4 import BeautifulSoup
 import praw
 import re
 
-client_id = "FItKtFrpFPdUQA"
-client_secret = "tD_rK3gQm8y_gm2MfkWWIa5QPaA"
-user_agent = "nbastream_bot"
+#I can't share personal API keys, so they are represented as below
+client_id = #YOUR_CLIENT_ID
+client_secret = #YOUR_CLIENT_SECRET
+user_agent = #YOUR_USER_AGENT
 
 #create reddit instance by inputting the client_id, client_secret,
 reddit = praw.Reddit(client_id=client_id,
